@@ -1,32 +1,16 @@
-# C Programlama Öğrenme Yolculuğum
+# C Programlama Öğrenme Günlüğü
 
-Bu depo, C programlama dilini öğrenirken yaptığım örnekleri ve alıştırmaları içeriyor.  
-Her dosya, öğrendiğim konuları pekiştirmek için yazılmış küçük uygulamalardan oluşuyor.
+Bu depo, C programlama dilini öğrenme sürecimde oluşturduğum kod örneklerini, notları ve alıştırmaları içermektedir. Süreç boyunca öğrendiğim her konuyu farklı bölümler altında toplamayı hedefliyorum.
 
-## Klasörler ve Konular
+## Proje Yapısı
 
-- **HelloWorld.c** → C diline giriş, "Merhaba Dünya" programı
-- **Selection_1/** → Koşul ifadeleri (if, else, switch) alıştırmaları
-- **Loop_Exercises/** → Döngülerle ilgili örnekler
-- **Functions/** → Fonksiyon kullanımı ve modüler kodlama
-- **Arrays/** → Dizilerle temel işlemler
-- **Pointers/** → Pointer ve bellek yönetimi örnekleri
-- **Advanced/** → Daha karmaşık programlar ve mini projeler
+* **Selection_1**: C diline giriş, ekrana yazdırma işlemleri ve temel veri yapıları.
+* **Gelecek Konular**: Döngüler, koşullu ifadeler, fonksiyonlar ve pointer konuları eklendikçe burası güncellenecektir.
 
-*(Yeni konular ve alıştırmalar öğrenme sürecim ilerledikçe eklenecek.)*
+## Derleme Bilgisi
 
-## Amaçlarım
-
-1. Temel ve ileri C kavramlarını öğrenmek  
-2. Küçük alıştırmalarla problem çözme becerimi geliştirmek  
-3. Git ve GitHub kullanarak ilerlememi takip etmek  
-4. Kendi mini portföyümü oluşturmak  
-
-## Kullanım
-
-- Klasörleri ve dosyaları inceleyerek alıştırmaları görebilirsiniz.  
-- Programları terminalden çalıştırmak için:
+Dosyaları derlemek için terminal üzerinden aşağıdaki komutu kullanabilirsiniz:
 
 ```bash
-gcc dosyaadi.c -o cikti
-./cikti
+gcc <dosya_adi>.c -o <cikti_adi>
+./<cikti_adi>

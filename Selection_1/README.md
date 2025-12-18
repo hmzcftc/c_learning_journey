@@ -1,24 +1,14 @@
-# Selection_1: Veri Tipleri ve Değişkenler
+# Bölüm 1: Giriş ve Temel Veri Yapıları
 
-C dilinde veri tipleri ve değişkenleri öğrenmek için yaptığım alıştırmalar.
+C dilinin temel sözdizimini (syntax) ve değişken mantığını anlamak için hazırlanan ilk bölümdür.
 
-## Temel Veri Tipleri
-- int → Tam sayılar  
-- float / double → Ondalıklı sayılar  
-- char → Tek karakter  
-- bool → Mantıksal değerler
+## Dosyalar ve İçerikleri
 
-## Örnek
+1. **HelloWorld.c**: C dilindeki en temel yapı olan kütüphane dahil etme ve standart çıktı fonksiyonlarını içerir.
+2. **Değişkenler ve Veri Tipleri**: Tam sayılar, karakterler ve ondalıklı sayıların tanımlanması ile ilgili örnekleri kapsar.
 
-```c
-int yas = 25;
-float pi = 3.14;
-char harf = 'A';
-bool aktif = 1;
+## Kazanımlar
 
-## GÖrevler
--Değişken oluştur ve yazdır
-
--Kullanıcıdan veri al ve işle
-
--Basit hesaplamalar yap
+* Standart giriş-çıkış kütüphanesinin (stdio.h) kullanımı.
+* Main fonksiyonu yapısı.
+* Değişken tanımlama ve atama mantığı.
